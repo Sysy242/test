@@ -8,7 +8,7 @@ client.login(process.env.TOKEN)
 
 client.on("ready", () =>{
     console.log("je suis prêt")
-    client.user.setGame("https://discord.gg/hPPJUSV free nitro", "https://twitch.tv/z")
+    client.user.setGame(`on ${client.guilds.size} server`, `https://www.twitch.tv/a`)
 
 });
 
