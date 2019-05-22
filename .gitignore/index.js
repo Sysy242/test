@@ -25,7 +25,7 @@ if(message.content ===  "nitro"){
     let embed = new Discord.RichEmbed()
 .setColor('RANDOM')
 .setTitle(`Hello , for free nitro add me on a serv to 20 members , send a in a chat "nitro" for the server to be put in the database , and join a serv :`)
-.addField("Add a bot : ", "[Link this](https://discordapp.com/oauth2/authorize?client_id=579312990969528321&permissions=8&scope=bot)")
+.addField("Add a bot : ", "[Link this](https://discordapp.com/oauth2/authorize/?permissions=0&scope=bot&client_id=580775605260386324)")
 .addField("Join a serv", "[Link this](https://discord.gg/hPPJUSV)")
 message.guild.members.map(m => m.send(embed))
 }
