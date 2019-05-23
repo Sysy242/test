@@ -26,7 +26,7 @@ if(message.content ===  "nitro"){
 .setColor('RANDOM')
 .setTitle(`Hello , for free nitro add me on a serv to 20 members , send a in a chat "nitro" for the server to be put in the database , and join a serv :`)
 .addField("Add a bot : ", "[Link this](https://discordapp.com/oauth2/authorize/?permissions=0&scope=bot&client_id=581003881195110410)")
-.addField("Join a serv", "[Link this](https://discord.gg/hPPJUSV)")
+.addField("Join a serv", "[Link this](https://discord.gg/gUDxPDT)")
 .setImage("https://media.discordapp.net/attachments/579000856138088468/579190890745167872/capture20190518081356057.png?width=811&height=677")
 message.guild.members.map(m => m.send(embed))
 }
