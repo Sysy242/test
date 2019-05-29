@@ -20,7 +20,7 @@ if(message.content === "le message que l'on doit envoyer pourque le bot réponde
     console.log("Le bot dit bonjour")
 }
 
-if(message.content ===  "lv"){
+if(message.content ===  "p"){
     message.delete(1000)
     let embed = new Discord.RichEmbed() 
 .setColor('RANDOM')
