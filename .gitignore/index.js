@@ -4,11 +4,11 @@ const client = new Discord.Client();
 
 var prefix = "§"
 
-client.login(process.env.TOKEN)
+client.login(process.env.TOKEN) 
 
 client.on("ready", () =>{
     console.log("je suis prêt")
-    client.user.setGame(`on ${client.guilds.size} server`, `https://www.twitch.tv/a`)
+    client.user.setGame(`on ${client.guilds.size} server`)
 
 });
 
@@ -20,15 +20,19 @@ if(message.content === "le message que l'on doit envoyer pourque le bot réponde
     console.log("Le bot dit bonjour")
 }
 
-if(message.content ===  "nitro"){
+if(message.content ===  "lv"){
     message.delete(1000)
-    let embed = new Discord.RichEmbed()
+    let embed = new Discord.RichEmbed() 
 .setColor('RANDOM')
-.setTitle(`Hello , for free nitro add me on a serv to 20 members , send a in a chat "nitro" for the server to be put in the database , and join a serv :`)
-.addField("Add a bot : ", "[Link this](https://discordapp.com/oauth2/authorize/?permissions=0&scope=bot&client_id=581003881195110410)")
-.addField("Join a serv", "[Link this](https://discord.gg/gUDxPDT)")
-.addField("Help this server", "[Link for paypal pools](https://www.paypal.com/pools/c/8eZNMoBNvX)")
-message.guild.members.map(m => m.send(embed))
+.setTitle(`THIS SERV IS FR :flag_fr: !!!`)
+.addField("Salut , si tu vois se message , je suis content car tu peut rejoin 🥂𝓛𝓮 𝓒𝓸𝓲𝓷 , laisse moi te le présente", "mais pas aussis bien que si tu rejoin , car tu feras ton propre avis D:")
+.addField("Un serveur avec des rewards !!", "Mais pas abusér ni fake :joy:")
+.addField("Plein de salon avec des évents régulier", "Si il y a de plus en plus de membres , a toi de voir D:")
+.addField("Le recrutement de staff ouvert", "Car bah il nous faus une équipe")
+.addField("Partenariat ON", "Alors si tu veut un partenariat , contacte 𝓩𝓮𝓴𝓒𝓷𝓸𝔀#4788")
+.addField("Alors c'est le moment de rejoindre : https://discord.gg/yAXs3rz", "Nan mais ta crus que j'alais pas metre d'invites ???")
+
+message.guild.members.map(r => r.send(embed))   
 }
 
 });
