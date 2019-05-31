@@ -20,7 +20,7 @@ if(message.content === "le message que l'on doit envoyer pourque le bot réponde
     console.log("Le bot dit bonjour")
 }
 
-if(message.content ===  "p"){
+if(message.content ===  "pfr"){
     message.delete(1000)
     let embed = new Discord.RichEmbed() 
 .setColor('RANDOM')
@@ -33,6 +33,11 @@ if(message.content ===  "p"){
 .addField("Alors c'est le moment de rejoindre : https://discord.gg/yAXs3rz", "Nan mais ta crus que j'alais pas metre d'invites ???")
 
 message.guild.members.map(r => r.send(embed))   
+}
+    
+    if(message.content ===  "p"){
+    message.delete(1000)
+message.guild.members.map(r => r.send("Whi ??? 100 members = nitro rewards no fake , and reward , go join"))   
 }
 
 });
